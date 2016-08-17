@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title=" StructuresTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BtreeTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BtreeTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/BTree.h" />
+		<Unit filename="include/BTreeUtils.h" />
+		<Unit filename="include/DbNode.h" />
+		<Unit filename="include/DbNode_utils.h" />
+		<Unit filename="include/ListNode.h" />
+		<Unit filename="include/ListNode_utils.h" />
+		<Unit filename="include/Node.h" />
+		<Unit filename="include/sort_utils.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/BTree.cpp" />
+		<Unit filename="src/BTreeUtils.cpp" />
+		<Unit filename="src/DbNode_utils.cpp" />
+		<Unit filename="src/ListNode_utils.cpp" />
+		<Unit filename="src/sort_utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

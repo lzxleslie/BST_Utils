@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1465910003 source:/home/whu/BtreeTest/BTree.cpp
+	"BTree.h"
+
+1465909572 /home/whu/BtreeTest/BTree.h
+	"Node.h"
+
+1465909606 /home/whu/BtreeTest/Node.h
+	<cstddef>
+
+1466495919 source:/home/whu/BtreeTest/main.cpp
+	"BTree.h"
+	"BTreeUtils.h"
+	<iostream>
+	"sort_utils.h"
+
+1465992356 source:/home/whu/BtreeTest/src/BTreeUtils.cpp
+	"BTreeUtils.h"
+	<iostream>
+	<stack>
+	<queue>
+	<vector>
+
+1465981790 /home/whu/BtreeTest/include/BTreeUtils.h
+	"Node.h"
+	<string>
+
+1465909572 /home/whu/BtreeTest/include/BTree.h
+	"Node.h"
+
+1465909606 /home/whu/BtreeTest/include/Node.h
+	<cstddef>
+
+1465910003 source:/home/whu/BtreeTest/src/BTree.cpp
+	"BTree.h"
+
+1466495901 source:/home/whu/BtreeTest/src/sort_utils.cpp
+	"sort_utils.h"
+	<math.h>
+	<cstring>
+	<iostream>
+
+1466494430 /home/whu/BtreeTest/include/sort_utils.h
+
+1466684093 source:/home/whu/ AStructuresTest/main.cpp
+	"BTree.h"
+	"BTreeUtils.h"
+	<iostream>
+	"sort_utils.h"
+	"ListNode_utils.h"
+
+1465909572 /home/whu/ AStructuresTest/include/BTree.h
+	"Node.h"
+
+1465909606 /home/whu/ AStructuresTest/include/Node.h
+	<cstddef>
+
+1465981790 /home/whu/ AStructuresTest/include/BTreeUtils.h
+	"Node.h"
+	<string>
+
+1466494430 /home/whu/ AStructuresTest/include/sort_utils.h
+
+1465910003 source:/home/whu/ AStructuresTest/src/BTree.cpp
+	"BTree.h"
+
+1465992356 source:/home/whu/ AStructuresTest/src/BTreeUtils.cpp
+	"BTreeUtils.h"
+	<iostream>
+	<stack>
+	<queue>
+	<vector>
+
+1466495901 source:/home/whu/ AStructuresTest/src/sort_utils.cpp
+	"sort_utils.h"
+	<math.h>
+	<cstring>
+	<iostream>
+
+1466682475 /home/whu/ AStructuresTest/include/ListNode_utils.h
+	"ListNode.h"
+
+1466512078 /home/whu/ AStructuresTest/include/ListNode.h
+
+1466683908 source:/home/whu/ AStructuresTest/src/ListNode_utils.cpp
+	"ListNode_utils.h"
+	<iostream>
+
