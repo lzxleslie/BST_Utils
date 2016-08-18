@@ -1,7 +1,7 @@
 # BST_Utils
 包括单链表、双向链表、循环链表、二叉搜索树等等数据结构的建立、遍历、查找、增删等操作；其中二叉树的操作均包括递归与非递归
 包括 冒泡、插入、选择、快速、希尔、堆、基数等排序方法
-# main函数
+main函数
 #include "BTree.h"
 #include "BTreeUtils.h"
 #include<iostream>
